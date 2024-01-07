@@ -1,0 +1,50 @@
+*{margin: 0;
+ padding: 0;}
+
+
+ .hero{
+    
+    width: 1320px;
+    height: 600px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  
+}
+.bgimg{
+
+    
+    background-image: url("/assets/Banner\ Image.png");
+
+    
+
+}
+
+ .hero h1, h6 {
+    color: aliceblue;
+ }
+
+ .hero_text{
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+ }
+
+
+ #small{
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+
+ }
+
+ #big{
+
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    
+ }
