@@ -319,3 +319,22 @@ span {
    width: 368px;
    text-align: justify;
 }
+
+
+/* end of offer section */
+
+
+/* start of holiday section */
+
+.holiday-scale{
+   width:1320px ;
+   height:733px;
+   position:relative;
+   display: flex;
+   margin: auto;
+
+}
+
+.sale{
+   text-align: justify;
+}
