@@ -328,8 +328,7 @@ span {
 
 .holiday-sale {
    width: 1320px;
-   height: 200px;
-
+   
    display: flex;
    margin: auto;
 
@@ -338,15 +337,49 @@ span {
 .sale {
 
    text-align: center;
-   width: 600px;
-   margin-left: 368px;
+   width: 800px;
+   margin-left: 300px;
+   padding-bottom: 40px;
 
+}
+
+.functional {
+   color: #070211;
+
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+
+}
+
+.highlight {
+   color: #F00;
+
+   text-align: center;
+   font-family: Merriweather;
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   padding-bottom: 20px;
+   margin-bottom: 15px;
+}
+
+.sale-offer {
+   color: #070211;
+   font-family: Merriweather;
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   padding-top: 20px;
 }
 
 .ref-pic {
    width: 1320px;
-   height:600px;
-
+   height: 600px;
    display: flex;
    margin: auto;
 }
