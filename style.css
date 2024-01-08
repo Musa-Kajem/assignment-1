@@ -129,11 +129,13 @@
 
 
 /* start of party section  */
+
 .banner {
    width: 1320px;
    height: 600px;
    position: relative;
-   background-image: url(/assets/Vectorrr.png);
+   background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/assets/Vectorrr.png);
+   
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -144,7 +146,7 @@
 }
 
 .plain-text {
-   padding-top: 100px;
+   padding-top: 0px;
    padding-left: 90px;
 }
 
@@ -169,7 +171,6 @@
    font-style: normal;
    font-weight: 400;
    line-height: 30px;
-   /* 166.667% */
    width: 600px;
 
 
@@ -193,3 +194,39 @@ button {
 }
 
 /* end of party section */
+
+/* start of time,table portion */
+.time-table{
+   width: 1320px;
+   height: auto;
+   text-align: center;
+   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+   margin: auto;
+   padding-bottom: 30px;
+   padding-top: 30px;
+
+
+}
+
+span{
+   color: rgb(255, 60, 0);
+}
+
+
+.primary-btn{
+   color:rgb(243, 239, 239);
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+   background: orangered;
+   border: none;
+   width: 150px;
+   height: 50px;
+   
+}
+/* end of time,table portion*/
+
