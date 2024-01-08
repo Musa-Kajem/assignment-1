@@ -6,25 +6,24 @@
 }
 
 
- .hero{
+ .hero{    
     
-    width: 1320px;
-    height: 600px;
-    margin: 10px;
-    background-repeat: no-repeat;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   
 }
+
 .bgimg{
 
-    
-    background-image: url("/assets/Banner\ Image.png");
-
-    
-
+        background-image: url("/assets/Banner\ Image.png");
+        width: 1320px;
+        height: 600px;
+        margin: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
 }
 
- .hero h1, h6 {
+.hero h1, h6 {
     color: aliceblue;
  }
 
@@ -51,5 +50,8 @@
     font-size: 48px;
     color: white;
     font-weight: 700;
+    text-align: center;
 
  }
+
+
