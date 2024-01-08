@@ -326,19 +326,27 @@ span {
 
 /* start of holiday section */
 
-.holiday-sale{
-   width:1320px ;
-   height:733px;
-   
+.holiday-sale {
+   width: 1320px;
+   height: 200px;
+
    display: flex;
    margin: auto;
 
 }
 
-.sale{
-   
+.sale {
+
    text-align: center;
    width: 600px;
    margin-left: 368px;
-   
+
+}
+
+.ref-pic {
+   width: 1320px;
+   height:600px;
+
+   display: flex;
+   margin: auto;
 }
