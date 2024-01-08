@@ -326,7 +326,7 @@ span {
 
 /* start of holiday section */
 
-.holiday-scale{
+.holiday-sale{
    width:1320px ;
    height:733px;
    position:relative;
@@ -336,5 +336,7 @@ span {
 }
 
 .sale{
+   
+   text-align: center;
    text-align: justify;
 }
