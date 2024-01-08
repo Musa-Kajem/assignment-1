@@ -23,7 +23,7 @@
    background-size: cover;
    margin: auto;
    border: none;
-   
+
 
 
 }
@@ -83,7 +83,6 @@
 
 .intro {
    color: #F00;
-
    text-align: center;
    font-family: Inter;
    font-size: 24px;
@@ -96,7 +95,6 @@
 
 .details {
    color: #070211;
-
    text-align: center;
    font-family: Inter;
    font-size: 48px;
@@ -125,6 +123,7 @@
    border: none;
 
 }
+
 /*end of discount announcement section  */
 
 
@@ -134,8 +133,8 @@
    width: 1320px;
    height: 600px;
    position: relative;
-   background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/assets/Vectorrr.png);
-   
+   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/assets/Vectorrr.png);
+
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -189,18 +188,19 @@ button {
    border: none;
 }
 
-.log0{
+.log0 {
    vertical-align: text-bottom;
 }
 
 /* end of party section */
 
 /* start of time,table portion */
-.time-table{
+.time-table {
    width: 1320px;
    height: auto;
    text-align: center;
-   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+   ;
    margin: auto;
    padding-bottom: 30px;
    padding-top: 30px;
@@ -208,13 +208,13 @@ button {
 
 }
 
-span{
+span {
    color: rgb(255, 60, 0);
 }
 
 
-.primary-btn{
-   color:rgb(243, 239, 239);
+.primary-btn {
+   color: rgb(243, 239, 239);
    text-align: center;
    font-family: Inter;
    font-size: 20px;
@@ -226,7 +226,96 @@ span{
    border: none;
    width: 150px;
    height: 50px;
-   
+
 }
+
 /* end of time,table portion*/
 
+
+
+/*start best offer portion*/
+
+.best-offer {
+   width: 1320px;
+   height: 600px;
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: auto;
+
+}
+
+.radialpic {
+   border: 10px solid red;
+   border-radius: 50%;
+   /* margin-left: 100px ; */
+}
+
+.radialpic-img {
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 40px;
+}
+
+
+.offer {
+   margin-right: 20px;
+
+}
+
+.new-best {
+   color: #F00;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+
+}
+
+.coming {
+   color: black;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 1000;
+   line-height: normal;
+
+}
+
+.offer-detail {
+   color: black;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   width: 368px;
+   padding-right: 36px;
+   text-align: justify;
+
+}
+
+.number {
+   color: #F00;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+}
+
+.year {
+   color: black;
+   margin-left: 20px;
+   padding-left: 36px;
+   padding-right: 36px;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   width: 368px;
+   text-align: justify;
+}
