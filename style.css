@@ -1,14 +1,14 @@
 *{
- font-family: 'Poppins', sans-serif; 
+ 
  margin: 0;
  padding: 0;
 
 }
 
 
- .hero{    
+.hero{ 
     
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: linear-gradient(180deg, #020000 0%, rgba(4, 0, 10, 0) 100%);
   
 }
 
@@ -17,18 +17,15 @@
         background-image: url("/assets/Banner\ Image.png");
         width: 1320px;
         height: 600px;
-        margin: 10px;
+        flex-shrink: 0;
+        border-radius: 16px;
         background-repeat: no-repeat;
         background-position: center;
         
 }
 
-.hero h1, h6 {
-    color: aliceblue;
- }
-
- .hero_text{
-    padding-top: 300px;
+.hero_text{
+    padding-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,21 +34,29 @@
  }
 
 
- #small{
+#small{
     font-size: 32px;
-    color: white;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-style: normal;
     font-weight: 400;
-    font-family:;
 
- }
+   }
 
- #big{
+#big{
 
-    font-size: 48px;
-    color: white;
-    font-weight: 700;
+    font-size: 72px;
+    color:white;
+    font-family: 'Merriweather', serif;  
+    font-weight: 900;
     text-align: center;
+    font-style: normal;
+    line-height: 100px;
 
- }
+    
+   }
+
+
 
 
