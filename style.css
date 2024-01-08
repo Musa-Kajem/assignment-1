@@ -329,7 +329,7 @@ span {
 .holiday-sale{
    width:1320px ;
    height:733px;
-   position:relative;
+   
    display: flex;
    margin: auto;
 
@@ -338,5 +338,7 @@ span {
 .sale{
    
    text-align: center;
+   width: 600px;
+   margin-left: 368px;
    
 }
