@@ -328,14 +328,14 @@ span {
 
 .holiday-sale {
    width: 1320px;
-   
+
    display: flex;
    margin: auto;
 
 }
 
 .sale {
-   
+
    text-align: center;
    width: 860px;
    padding-bottom: 40px;
@@ -380,7 +380,7 @@ span {
    padding-top: 20px;
 }
 
-.text-sale{
+.text-sale {
 
    color: black;
    font-family: Inter;
@@ -388,19 +388,63 @@ span {
    font-style: normal;
    font-weight: 400;
    line-height: 30px;
-   
+
    padding-right: 36px;
    text-align: center;
-   
-   
+
+
 }
 
 
 
 
-.ref-pic {
+/* satart of discount section */
+.discount-img {
+   position: relative;
    width: 1320px;
-   height: 600px;
-   display: flex;
+   height: 750px;
    margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+
 }
+
+.tall-img {
+   
+   position: relative;
+   width: 860px;
+   height: 500px;
+   transition: height 0.5s;
+}
+
+
+.photo {
+   position: relative;
+   width: 460px;
+   height: 433px;
+   flex-shrink: 0;
+
+
+}
+
+.sticker {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(32%, -47%);
+   width: 240px;
+   height: auto;
+
+}
+
+.bottom-box{
+   position: absolute;
+   bottom: 0;
+   height: 160px;
+   width: 1320px;
+   border-top-right-radius:0px ;
+}
+
+/* end of discount section */
