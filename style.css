@@ -233,7 +233,7 @@ span {
 
 
 
-/*start best offer portion*/
+/*start offer portion*/
 
 .best-offer {
    width: 1320px;
@@ -388,14 +388,13 @@ span {
    font-style: normal;
    font-weight: 400;
    line-height: 30px;
-
    padding-right: 36px;
    text-align: center;
 
 
 }
 
-
+/* end of holiday section */
 
 
 /* satart of discount section */
@@ -412,7 +411,7 @@ span {
 }
 
 .tall-img {
-   
+
    position: relative;
    width: 860px;
    height: 500px;
@@ -439,12 +438,146 @@ span {
 
 }
 
-.bottom-box{
+.bottom-box {
    position: absolute;
    bottom: 0;
    height: 160px;
-   width: 1320px;
-   border-top-right-radius:0px ;
+   width: 1319px;
+   border-top-right-radius: 0px;
 }
 
 /* end of discount section */
+
+
+/* start of products section */
+
+.product {
+   width: 1320px;
+   height: 630px;
+   margin: auto;
+   margin-top: 100px;
+   padding: 20px;
+
+
+}
+
+.product {
+   width: 1320px;
+   height: 300px;
+   margin: auto;
+   margin-top: 100px;
+   padding: 20px;
+
+
+}
+
+/* will use when i needed */
+.head {
+   width: 700px;
+}
+
+.description {
+   color: black;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   padding-right: 36px;
+
+}
+
+/* start of product secion */
+.pic-container {
+   width: 1320px;
+   height: 900px;
+   margin: auto;
+   overflow-x: hidden;
+
+}
+
+.all-items {
+
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   width: 1320px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(430px, 430px));
+   column-gap: 10px;
+   row-gap: 10px;
+
+}
+
+.pictures {
+   width: 430px;
+   height: 430px;
+   object-fit: cover;
+   object-position: center;
+}
+
+/* end of poduct section */
+
+/* start of subscription */
+
+.subscription {
+   width: 1320px;
+   height: 600px;
+   text-align: center;
+   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+   ;
+   margin: auto;
+   padding-bottom: 30px;
+   padding-top: 30px;
+   margin-top: 30px;
+}
+
+.sub-logo {
+   height: 150px;
+   width: 150px;
+}
+
+.readme {
+   text-align: center;
+   width: 860px;
+   padding-bottom: 40px;
+   margin: auto;
+   padding: 0;
+}
+
+.boxmodel{
+   height: 250px;
+   position: absolute;
+
+   
+}
+
+input{
+   
+   display: inline-block;
+   font-size: 30px;
+   box-sizing: border-box;
+   height: 100px;
+   width: 80px;
+}
+
+   input[type="email"]{
+      position: relative;
+      background-color: white;
+      width: 550px;
+      height: 90px;
+      border: none;
+      outline: none;
+      padding: 0 25px;
+      border-radius: 25px 0 0 25px;
+   }
+
+   input[type="submit"]{
+      background-color: #F00;
+      width: 215px;
+      height: 90px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      
+      
+   }
