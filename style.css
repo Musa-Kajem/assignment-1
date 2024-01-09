@@ -507,7 +507,7 @@ span {
    grid-template-columns: repeat(auto-fill, minmax(430px, 430px));
    column-gap: 10px;
    row-gap: 10px;
-   
+
 
 }
 
@@ -516,7 +516,7 @@ span {
    height: 430px;
    object-fit: cover;
    object-position: center;
-   
+
 }
 
 /* end of poduct section */
@@ -597,4 +597,3 @@ input[type="submit"] {
    width: 1320px;
    margin: auto;
 }
-
