@@ -581,3 +581,15 @@ input[type="submit"] {
    outline: none;
    border-radius: 0px 50px 50px 0px;
 }
+
+
+.footer{
+   width: 1320px;
+   height: 600px;
+   background: #070211;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   margin: auto;
+
+}
