@@ -337,8 +337,7 @@ span {
 .sale {
    
    text-align: center;
-   width: 800px;
-   margin-left: 300px;
+   width: 860px;
    padding-bottom: 40px;
    position: relative;
    bottom: 0;
@@ -380,6 +379,24 @@ span {
    line-height: 0;
    padding-top: 20px;
 }
+
+.text-sale{
+
+   color: black;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   
+   padding-right: 36px;
+   text-align: center;
+   
+   
+}
+
+
+
 
 .ref-pic {
    width: 1320px;
