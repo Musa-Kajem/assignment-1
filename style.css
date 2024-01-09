@@ -335,22 +335,26 @@ span {
 }
 
 .sale {
-
+   
    text-align: center;
    width: 800px;
    margin-left: 300px;
    padding-bottom: 40px;
+   position: relative;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
 
 }
 
 .functional {
    color: #070211;
-
    font-family: Inter;
    font-size: 24px;
    font-style: normal;
-   font-weight: 500;
-   line-height: normal;
+   font-weight: 700;
+   line-height: 1.5;
 
 }
 
@@ -362,9 +366,9 @@ span {
    font-size: 72px;
    font-style: normal;
    font-weight: 900;
-   line-height: normal;
    padding-bottom: 20px;
    margin-bottom: 15px;
+   line-height: 0;
 }
 
 .sale-offer {
@@ -373,7 +377,7 @@ span {
    font-size: 72px;
    font-style: normal;
    font-weight: 900;
-   line-height: normal;
+   line-height: 0;
    padding-top: 20px;
 }
 
